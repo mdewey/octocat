@@ -13,6 +13,39 @@ body {
 } */
 
 
+/* nav bar */
+nav{
+  display: flex;
+  justify-content: space-between;
+}
+nav>img {
+  height: 2em;
+}
+nav>ul{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+nav .menu-link{
+  margin: 0 1em 1em 1em;
+  font-weight: bold;
+}
+
+/*mobile display */
+@media (max-width:600px){
+  /* *{
+    border:10px solid green;
+  } */
+  nav{ 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+
+/*cat item */
 .cat-container{
  display: flex;
  flex-direction: row;
