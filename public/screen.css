@@ -7,3 +7,49 @@ body {
   min-height: 100%;
   font: 16px / 1 sans-serif;
 }
+/* 
+*{
+  border: 1px solid  green;
+} */
+
+
+.cat-container{
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ justify-content: space-around;
+ margin:1em;
+}
+
+.image-container{
+  border:2px grey solid;
+  padding: 1em;
+  margin-bottom: 0.5em;
+}
+.cat-image{
+  max-width: 100%;
+}
+
+.cat-card{
+  width: 25%;
+  min-width: 12em;
+}
+
+.cat-card > footer{
+  display: flex;
+  /* margin-right: -2.2em; */
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid lightgray;
+}
+
+.author-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+
+.profile-image{
+  width:2em;
+}
